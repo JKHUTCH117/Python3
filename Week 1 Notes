@@ -4,3 +4,129 @@ vim [Filename].py
 
 print (" ")
   Potiental Error: SyntaxError: Missing parentheses in call to 'print'.
+
+SSH
+ssh -Y student@IP
+
+-Y = trusted GUI interface Enables trusted X11 forwarding.  Trusted X11 forwardings are not
+             subjected to the X11 SECURITY extension controls.
+-X = Enables X11 forwarding.  This can also be specified on a per-host
+             basis in a configuration file.
+            
+terminator (linux box command)
+ Right-Click and select split...
+ 
+Modify vim
+  vim  ~/.vimrc
+    syntax enable
+    set tabstop=4
+    set shiftwidth=4
+    set expandtab
+    set number
+    filetype indent on
+    set autoindent
+
+
+
+    " Custom stuff I like
+    " set cursorline
+    set showmode
+    
+ set nonu = turn off numbers
+ set nu = turn on numbrt
+ dd = delete
+ o = insert under line
+ O = insert above line
+ 
+TypeSystem
+No Characters in python/No arrays in python
+"" or ''= String
+camelcasing = lower first letter uper secod word
+Command: type([varible])
+Command: int([variable]) | displays integer of a sring, data type doesn't change
+Command: [varible] = int([variable])
+add stinges to concatate them, cannot maths two diffent variable
+division // doesn't round.. just cuts off
+LISTS
+Command: myList = []
+Command ex: myList = [1, "two", ['three', 'four']]
+Command: myList [2]
+Command: myList [-1] | last in list
+potential error: IndexError: list index out of range | refrenced location doens't exist
+Mutable data types: Lists and Dictionary, all other data types get a new space in memory
+Command: id(variable)
+
+Remove from list
+del myList[Loc]
+
+Methods
+.append only works for lists
+.pop be carful | takes away last item in list
+Command: [varible] = myList.pop() | takes removed item and puts in it's own varible
+.split to sepeate a string into a list by the delimeter(ususally a space) does not save anywhere
+Command ex: myStr.split(',') | seperates by comma
+
+TUPL s list you cannot modify
+Command ex: myTup = ('stuck', 'here', 'forever')
+This can only be typecasted to a list
+Command ex: list(myTup)
+
+String Minipulation??
+Concatation
+ex: name = 'King'
+    'My Name is ' + name
+.format insert variable in {} <- is placeholder
+ex: 'My name is {}'.format(name)
+in .format() using multiple placeholders, insert the varibles in the order they appear, comma specrated
+ex: PI = 3.14159265359
+    'Pi = {:.2f}' .format (PI)
+    : = activate
+    . = pull after decimal
+    2f is the amount to pull after decimal
+
+
+
+
+
+
+
+
+
+Modulus Remainder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
