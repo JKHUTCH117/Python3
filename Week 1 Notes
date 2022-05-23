@@ -53,6 +53,7 @@ Command ex: myList = [1, "two", ['three', 'four']]
 Command: myList [2]
 Command: myList [-1] | last in list
 potential error: IndexError: list index out of range | refrenced location doens't exist
+
 Mutable data types: Lists and Dictionary, all other data types get a new space in memory
 Command: id(variable)
 
@@ -63,8 +64,12 @@ Methods
 .append only works for lists
 .pop be carful | takes away last item in list
 Command: [varible] = myList.pop() | takes removed item and puts in it's own varible
-.split to sepeate a string into a list by the delimeter(ususally a space) does not save anywhere
+.split('') to sepeate a string into a list by the delimeter(ususally a space) does not save anywhere
 Command ex: myStr.split(',') | seperates by comma
+typecasting to a list sets seperated  by letter
+''.join to concate a string into one word
+Command ex: ''.join(myWord)
+
 
 TUPL s list you cannot modify
 Command ex: myTup = ('stuck', 'here', 'forever')
@@ -84,9 +89,15 @@ ex: PI = 3.14159265359
     . = pull after decimal
     2f is the amount to pull after decimal
 
+Can specify seperators
+Command ex: print(a, b, sep=":")
+
+Command ex: print a, b, sep=":", end="and thats the end")
 
 
-
+input takes input and always returns a string
+Command ex: input ("Type Something")
+Command ex: int(input())
 
 
 
@@ -95,10 +106,16 @@ ex: PI = 3.14159265359
 Modulus Remainder
 
 
+Scripting Activity ex Answer:
+email = 'monty@python.grail'
 
+print('.'.join(email.slpit('@')).split('.'))
 
-
-
+REPL
+email = 'monty@python.grail'
+email = email.split('@')
+email = '.'.join(email)
+email = email.split('.')
 
 
 
