@@ -124,7 +124,15 @@ email = email.split('.')
 
 
 
+if
+Instructor ex:
+  user = unput()
+  
+  if user == 'print':
+     print('print')
 
+
+elif
 
 
 
