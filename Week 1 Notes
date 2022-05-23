@@ -100,9 +100,6 @@ Command ex: input ("Type Something")
 Command ex: int(input())
 
 
-
-
-
 Modulus Remainder
 
 
@@ -118,40 +115,146 @@ email = '.'.join(email)
 email = email.split('.')
 
 
-
-
-
-
-
-
 if
 Instructor ex:
   user = unput()
   
-  if user == 'print':
-     print('print')
+  if user == 'yeet':
+     print('yeet')
 
 
 elif
+   elif user == 'teey':
+      print("HappyFace")
+   else:
+      print("Sad face")
+in:
+if 'y' in user:
+     print("y is in input")
+     
+is:
+ 
+Python is case sensetive:
+  use .lower() to remove any issues reguarding case
+can use 'and'
+
+Functions
+def = define a function
+pass = nothing, yeild nothing/won't error out
+''' 
+    Multi line comment
+'''  
+
+Instructor ex:
+ def mul(a, b):
+     '''
+     Return a time b
+     '''
+     return a*b
+     
+ print(mul(6,10))
+     
+     
+Local vs Global Variables, never make global variables
+
+
+For Loops
+it itteratates
+
+Instructer ex:
+
+myList = [1,2,3,4,5,6]
+
+for i in myList
+    print(i)
+    
+    
+While loops
+itterates until the condition is false
+
+instructor ex:
+while False:
+  Print("Make it stop")
+This itteration will never occur
+
+wile True:
+    print("Make it stop")
+Whis itteration will run but infinate number of times
+
+
+while True:
+     print("Make it stop")
+     break
+This will run once or 'BREAK' out of the loop at break
+
+c = 0
+while c < 10::
+    print("AA")
+    c += 1
+This will print AAA 10 times as it prints then itterates the c by 1 up to 10
+
+RANGE
+
+(start, stop, step) stop is up to but not including
+Instructor ex:
+range(1,10)
+This sets the range values itterating by default 1
+type(range(1,10))
+This tells me what data type it is
+list(range(1,10))
+This lists the range in list format
+range(1,10,2)
+This itterates by 2 meaning it stops at 8
+for i in range(10,-1,-1)
+   print(i)
+Counts backwards from 10 to 0
+
+String Slicing (is not range)
+
+Instructor ex:
+myList = list(range(0,10))
+
+myList[0:5]
+This grabs the first 5 values, start stop step....
+myList[0:5:2]
+This is grabing every other item
+myList[1:]
+Grabs from 2nd item onward
+myList[-3:]
+Grabs last 3 items
+myList[::-1]
+This is string spliceing for just go backwards
+myStr[:-1]
+This grabs upto but not including the last item
+
+List Comprehension
+
+Instructor ex:
+result = [x for x in range(0,50,5) if x%2 ==1]
+The output: [5, 25, 35, 45]
+I don't understand but... says not improtant
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Day 2
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
