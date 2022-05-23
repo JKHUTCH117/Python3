@@ -1,0 +1,7 @@
+# Python3
+Week 1 Notes
+ctl + 'd' to exit
+vim [Filename].py
+
+print (" ")
+  Potiental Error: SyntaxError: Missing parentheses in call to 'print'.
