@@ -237,11 +237,82 @@ I don't understand but... says not improtant
 
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Day 2
 
+File I/O [BIG TICKET ITEM]
+Commands:
+fp = open('myFile.xtxt')
+fp.close()
+Make sure data type is a string
+Options 2 Commands:
+varFile = 'myFile.txt'
+fp = open(varFile)
+fp.close()
+Pythonic Way
+varFile = 'myFile.txt'
+with open(varFile, 'r') as fp:
+  pass
+fp is the varible of the open file in this example
+in a with statement, the file closes automaticly. no need for a close statement
+Three ways to read a file... 2 are useful
+    lines = fp.read()
+    print(lines)
+    reads as a string
+    fp.read(5) 
+    reads only a set number of characters, in this case 5
+    
+    fp.readlines()
+    Outputs a list, each element is a line in the file.
+ read=string
+ readlines=lists
+ readline=trash
+ 
+ Writting
+ varFile = 'myfile.txt'
+ with open('outfile.txt', 'w') as fp:
+    fp.write('My stuff\n')
+    if the file doesn't exist, it will create unless you lack premissions
+    insure you put a \n for a new line
+    fp.writelines(['line2\n', 'line2\n', 'line3\n',])
+    will not add new lines
+    
+    
+with open('myfile.txt') as fp0:
+      lines - fp0.readlines()
+      
+with open('outputfile.txt', 'w') as fp1:
+    fp1.writelines(lines)
+    
+Nested
+with open('nyfile.txt', 'r') as fp0
+    with open('outfile.txt', 'w') as fp1:
+      lines = fp0.read()
+      fp1.write(lines)
 
 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
