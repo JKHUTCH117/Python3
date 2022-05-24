@@ -380,6 +380,40 @@ fun = incrementor(42)
 print(fun(3))
 
 
+function ord('a') gets a ordinal number or decimal number of an asscii represtor
+return to ascii is chr
+chr(42)
+
+bin() sucks don't use it
+
+other way to get binary is to use the format (not the method)
+format(42, '0>8b')
+
+to turn back to value use int
+int('00101010', 2)
+
+what is a for loop...
+
+for loop counter:
+
+myList0 = []
+myList1 = []
+
+c=0
+for i in myList0:
+	print(i, myList1[c])
+	c += 1
+
+Pythonic for loop counter
+
+for c,i in enumerate(myList0):
+	print(i, myList1[c])
+c = counter
+i = item
+enumerate is making a list of tuples and the first number is the index and the second thing is the item
+
+
+
 
 
 
