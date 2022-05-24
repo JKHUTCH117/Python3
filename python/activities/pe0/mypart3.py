@@ -21,3 +21,22 @@
  21 
  22 *END*
 ~                
+
+
+  1 #!/usr/bin/env python3
+  2 
+  3 def guess_number(n):
+  4 
+  5 
+  6     while True:
+  7         u = int(input('Guess a number between 0-100 '))
+  8         if u == n:
+  9            print('WIN')
+ 10            break
+ 11         elif u < n:
+ 12             print('too low')
+ 13         elif u > n:
+ 14             print('too high')
+ 15 
+ 16 
+ 17 guess_number(23)
