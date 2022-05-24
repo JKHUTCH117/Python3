@@ -121,7 +121,7 @@ Instructor ex:
   
   if user == 'yeet':
      print('yeet')
-
+result = [x for x in range(0,50,5) if x%2 ==1]
 
 elif
    elif user == 'teey':
@@ -291,41 +291,102 @@ with open('nyfile.txt', 'r') as fp0
       fp1.write(lines)
 
 
+Sets:
+A set is un-organized container of objects
 
+mySet = {1, 4, 6, 7}
+type = set
+can detiermine if items are in set
+4 in set 
+True
+55 in set
+false
+
+mySet.add(50)
+adds to set
+mySet.remove(50)
+removes item from set
+Can not have multiple of the same item in the set
+
+.intersection to see with is the same
+.difference to see what is diffent from them
+.union to merge sets
+
+Dictionary
+Uses a key,value pair
+myDict = {'Pvt': 'E-1', 'PFC': 'E-2', "LCpl': 'E-3'}
+To pull something from the dictionary, use the key...
+in this case to pull E-1 I enter myDict['Pvt'] 
+uses key and value, so they key can pull the value but the valuse cannot pull the key
+
+to intterate through a dictorinary you get the keys not the values by default
+for i in myDict:
+  print(i)
+Pvt
+PFC
+LCpl
+
+to get the value
+for i in myDict:
+  print(myDict[i])
+E-1
+E-2
+E-3
+
+Counting stuf
+myStr = 'The quick brown fox jumps over'
+myDict = {}
+for i in myStr
+  if i in myDict:
+          myDict[i] += 1
+  else:
+          myDict[i] = 1
+
+Importing
+import name
+
+or
+
+from name import item,item  
+
+
+Varible length arugment
+def fun(*args):
+    print(args)
+    print(sum(args))
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+fun(4, 6, 6, 7, 8, 3, 5)
+This is a TUPL
+If I see a star in the function definition, that means it's a variable length argument
+
+LAMBDA
+A simple mini function
+
+ex:
+def fun(x): 
+		return x + 100
+		
+print(fun(50))
+
+or
+
+fun = lambda x: x + 100
+
+print(fun(50))
+
+def incrementor(n):
+	retuen lambda x: x+n
+fun = incrementor(42)
+print(fun(3))
 
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
