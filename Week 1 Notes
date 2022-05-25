@@ -413,6 +413,35 @@ i = item
 enumerate is making a list of tuples and the first number is the index and the second thing is the item
 
 
+Method
+min(varible)
+This method returns the elements from the list with minimum value.
+list1, list2 = [123, 'xyz', 'zara', 'abc'], [456, 700, 200]
+print "min value element : ", min(list1)
+print "min value element : ", min(list2)
+When we run above program, it produces following result −
+min value element : 123
+min value element : 200
+
+
+abs(varrible)
+this is absolute value
+
+NOTE: I can use - to subtrace to negatiify a number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
