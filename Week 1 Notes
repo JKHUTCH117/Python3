@@ -45,7 +45,7 @@ camelcasing = lower first letter uper secod word
 Command: type([varible])
 Command: int([variable]) | displays integer of a sring, data type doesn't change
 Command: [varible] = int([variable])
-add stinges to concatate them, cannot maths two diffent variable
+add stinges to concatate them, cannot maths two diffent variable types
 division // doesn't round.. just cuts off
 LISTS
 Command: myList = []
@@ -146,7 +146,7 @@ pass = nothing, yeild nothing/won't error out
 '''  
 
 Instructor ex:
- def mul(a, b):
+ def mul(a, b):lid syntax. Maybe you meant '=='
      '''
      Return a time b
      '''
@@ -208,7 +208,7 @@ This itterates by 2 meaning it stops at 8
 for i in range(10,-1,-1)
    print(i)
 Counts backwards from 10 to 0
-
+lid syntax. Maybe you meant '=='
 String Slicing (is not range)
 
 Instructor ex:
@@ -229,7 +229,7 @@ This grabs upto but not including the last item
 
 List Comprehension
 
-Instructor ex:
+Instructor ex:lid syntax. Maybe you meant '=='
 result = [x for x in range(0,50,5) if x%2 ==1]
 The output: [5, 25, 35, 45]
 I don't understand but... says not improtant
@@ -252,7 +252,7 @@ fp.close()
 Pythonic Way
 varFile = 'myFile.txt'
 with open(varFile, 'r') as fp:
-  pass
+  pass    print(avg)
 fp is the varible of the open file in this example
 in a with statement, the file closes automaticly. no need for a close statement
 Three ways to read a file... 2 are useful
@@ -285,7 +285,7 @@ with open('outputfile.txt', 'w') as fp1:
     fp1.writelines(lines)
     
 Nested
-with open('nyfile.txt', 'r') as fp0
+with open('nyfile.txt', 'r') as fp0lid syntax. Maybe you meant '=='
     with open('outfile.txt', 'w') as fp1:
       lines = fp0.read()
       fp1.write(lines)
@@ -363,7 +363,7 @@ LAMBDA
 A simple mini function
 
 ex:
-def fun(x): 
+def fun(x): lid syntax. Maybe you meant '=='
 		return x + 100
 		
 print(fun(50))
@@ -422,7 +422,7 @@ print "min value element : ", min(list2)
 When we run above program, it produces following result −
 min value element : 123
 min value element : 200
-
+ded a file called emotion_words.txt that contains lines of words that describe emotions. Find the 
 
 abs(varrible)
 this is absolute value
@@ -432,12 +432,71 @@ NOTE: I can use - to subtrace to negatiify a number
 
 
 
+METHOD:		  Not Required	
+.replace(old, new, count)
+However, given strings are immutable, 
+the function replaces characters on a copy of the original string. 
+So ensure you save the new string in case you intend to further use it.
+
+
+AVERAGE
+avg = sum(list) / len(list)
+
+
+Find an element in the list: Alterntive is 'in' i.e. if var in something
+.index('')
+this gives the index of said item in the array
+print('', varible) 
+this prints my quote
+
+
+output of print is none. cannot return a function as a print statement
+
+Complete the solution so that the function will break up camel casing, using a space between words.
+
+Example
+"camelCasing"  =>  "camel Casing"
+"identifier"   =>  "identifier"
+""             =>  ""
+def solution(s):
+    a=""
+    for letter in s:
+        if ord(letter) in range(65,91):
+            a+=" "
+        a+=letter
+    return a
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Given the floatstr, which is a comma separated string of floats, return a list with each of the floats in the argument as elements in the list.
 
 
 
