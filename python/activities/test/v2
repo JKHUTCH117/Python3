@@ -1,0 +1,107 @@
+1:) return ''.join(reversed(sentence.split()))
+    return ''.join(sentence.split()[::-1])
+
+2:) return '{:,}'.format(n)
+
+
+
+3:) return sorted(lst0+list1, reverse=True)
+return lost(reversed(sorted(lst0+lst1))
+
+4:) avg = (s1+s2+s3)/3
+if avf > 50:
+    return 'GO'
+    
+    
+    return 'GO' if (s1+s2+s3)/3 > 50 else 'NOGO'
+    
+    
+    return ['NOGO', 'GO'][int((s1+s2+s3)/3.0000001//50))]
+    
+5:) multiple = []
+    for i in range(0,limit+1,integer):
+    if (i%2==0):
+        multiples.appens(i)
+    return multiple
+    
+    
+    return [i for i in range(0,limit+1,integer) if i %2==0]
+    
+    
+6:) difs = []
+with open (f0) as fp0:
+  with open (f1) as fp1:
+    lines0 = fp0.readlines()
+    lines1 = fp1.readlines()
+or c,i in enumerate(lines0):
+  if i != lines1[c]:
+    difs.append(c
+return difs
+
+
+c= 0 
+for i != lines1[c]:
+  dif.append(c=+)
+  c+1 
+  
+  
+  7:)seen = set()
+      FOR IN LST:
+      If i in seen:
+      return i
+   else:
+   seen.add(i)
+   
+   
+   return[i for x, i in enumerate(kst) if i in set(lst[:i)][0]
+   
+   
+   8:)
+   words = strng.split()
+   minlen = len(words[0])
+   for i in words:
+      if len(i) < minlen:
+          minlen = len(i)
+   return minlen
+   
+   return len(min(trng.split(), key=len))
+   
+   9:)
+   chars = []
+   for i in strng:
+      if i.isnumeric():
+          cars.append(i)
+   return chr(int(''.join(chars)))
+   
+   
+   10:)
+   
+  for c,i in enumerate(arr):
+      if i+1 != arr[c+1]
+      return arr[c+1]
+      
+      
+      
+  for i in range(len(arr)-1):
+      if (arr[i+1]-arr{i]) !=1:
+          return arr[i+1]
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
