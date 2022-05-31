@@ -466,6 +466,7 @@ def solution(s):
         a+=letter
     return a
 
+sorted() fucntion is used to sort functions better than sort() as sort returns a none type
 
 
 
