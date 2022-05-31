@@ -469,6 +469,121 @@ def solution(s):
 sorted() fucntion is used to sort functions better than sort() as sort returns a none type
 
 
+for loop counters: 
+myList = [item, item, item]
+for c,i in enumerate(myList):
+	print('Counter {} has item {}'.format(c, i))
+
+c = 0
+for i in myList:
+	print('Counter {} has item {}'.format(c,i))
+
+
+
+Format
+
+>>> first = "Leuwu"
+>>> middle = "Bukky"
+>>> last = "pulp"
+>>> '{}{}{}'.format(first[0], middle[0], last[0:5])
+'LBpulp'
+>>> '{}{}{}'.format(first[0], middle[0], last[0:5]).lower()
+'lbpulp'
+>>> domain = 'nsa'
+>>> '{}{}{}@{}.gov'.format(first[0], middle[0], last[0:5], domain).lower()
+'lbpulp@nsa.gov'
+ 
+
+>>> f'{first[0]}{middle[0]}{last[0:5]}@{domain}.gov'.lower()
+'lbpulp@nsa.gov'
+
+
+email split on item:
+
+>>> email = 'rocky.z.wilson@usmc.mil'
+>>> ''.join(email.split('@'))
+'rocky.z.wilsonusmc.mil'
+>>> x = ''.join(email.split('@'))
+>>> x.split('.')
+['rocky', 'z', 'wilsonusmc', 'mil']
+
+
+turn to tuple
+>>> tuple(x)
+
+>>> mySent = "wowtherearenospacemyspcaebarisroken"
+>>> list(mySent)
+['w', 'o', 'w', 't', 'h', 'e', 'r', 'e', 'a', 'r', 'e', 'n', 'o', 's', 'p', 'a', 'c', 'e', 'm', 'y', 's', 'p', 'c', 'a', 'e', 'b', 'a', 'r', 'i', 's', 'r', 'o', 'k', 'e', 'n']
+
+
+>>> myNum = '23456245'
+>>> part1 = list(myNum)
+>>> list(map(int, part1))
+[2, 3, 4, 5, 6, 2, 4, 5]
+>>> 
+
+myDict = {'I':1, 'V':5, 'X':10, 'L':50}
+myDict['V']
+5
+
+index pulls values
+itterating pulls keys
+
+>>> for i in myDict:
+...     print(i)
+... 
+I
+V
+X
+L
+
+to pull values:
+
+>>> for i in myDict:
+...     print(myDict[i])
+... 
+1
+5
+10
+50
+
+
+sort vs sorted
+
+sorted is non-destructive/is function
+sort is a method
+
+same with reverse
+myList = [ 6, 2 ,5 ,74 ,8 ,5 ,2]
+
+myList = sorted(myList, reverse=True)
+myList
+[74, 8, 6, 5, 5, 2, 2]
+
+
+
+filename = 'myfile.txt'
+
+with open(filename) as fp:
+	read string
+	readlines is list where each element is a line
+	lines = fp.read()
+		fp.readlines()
+		
+copying file from one to another
+
+filename = 'myfile.txt'
+outfile = 'outfile.txt')
+with open(filename) as fp0:
+	with open(outfile, 'w') as fp1:
+		lines = fp0.readlines()
+		fp1.writelines(lines)
+
+same unnested
+with  open(filesname) as fp0:
+	lines = fp0.readlines()
+with open(outfile, 'w') as fp1:
+	fp1.writelines(lines)
 
 
 
@@ -476,28 +591,6 @@ sorted() fucntion is used to sort functions better than sort() as sort returns a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Given the floatstr, which is a comma separated string of floats, return a list with each of the floats in the argument as elements in the list.
 
 
 
