@@ -587,7 +587,32 @@ with open(outfile, 'w') as fp1:
 
 
 
+while loops... hate em
+while True:  # the condtion is met (infinte loop)
+	print("stuf")
+	break #without this it is infinte
+this prints once
 
+c = 0
+while c < 10:
+	print"stuff 10")
+	c += 1
+	
+prints 10 times exactly
+
+myList
+c = 0
+while c < len(myList):
+	print(myList[c])
+	c += 1
+	
+this prints the lists index value
+
+
+
+
+while i != 42:
+	i = int(input("What is number: "))
 
 
 
